@@ -279,7 +279,7 @@ elseif strcmp(mode,'parse')
 
         for s=1:n_Subjects
             
-            % Select the time points representing this subject and task
+            % Select the time points representing this subject
             T = (Time_all==s);
             Ctime=Kmeans_results{K}.IDX(T);
             
